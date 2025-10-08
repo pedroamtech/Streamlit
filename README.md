@@ -39,6 +39,8 @@ cd Streamlit
 ```
 
 ### 2. Crear un entorno virtual (recomendado)
+
+#### Opción A: Usando venv (Python estándar)
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # En macOS/Linux
@@ -46,10 +48,23 @@ source venv/bin/activate  # En macOS/Linux
 # venv\Scripts\activate  # En Windows
 ```
 
+#### Opción B: Usando Anaconda
+```bash
+conda create -n streamlit python=3.13
+conda activate streamlit
+# Para desactivar el entorno: conda deactivate
+```
+
 ### 3. Instalar las dependencias
 ```bash
 pip install -r requirements.txt
 ```
+
+> **Nota para usuarios de Anaconda:** También puedes usar `conda install` para algunas dependencias principales:
+> ```bash
+> conda install pandas matplotlib seaborn numpy scipy
+> pip install streamlit plotly  # Estas se instalan mejor con pip
+> ```
 
 ##  Uso
 
