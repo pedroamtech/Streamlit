@@ -1,8 +1,8 @@
-# 🎯 Dashboard Interactivo con Streamlit
+# Dashboard Interactivo con Streamlit
 
 Este proyecto contiene aplicaciones web interactivas desarrolladas con Streamlit, incluyendo un dashboard de visualización de datos y una aplicación básica de demostración.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 El proyecto incluye dos aplicaciones principales:
 
@@ -10,20 +10,21 @@ El proyecto incluye dos aplicaciones principales:
 
 2. **Hello World** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
 
-## 🚀 Características
+## Características
 
-### Dashboard Interactivo
-- 📊 Visualización de datos del dataset Iris
-- 🔍 Filtros por especie
-- 📈 Gráficos de dispersión con Matplotlib y Plotly
-- 🎛️ Controles deslizantes para filtrado dinámico
-- 📁 Carga de archivos CSV personalizados
-- 📏 Métricas calculadas en tiempo real
+### Hello rorld
+- Control deslizante interactivo
+- Cálculos en tiempo real
+- Demostración de conceptos básicos
 
-### Hello World
-- 🎚️ Control deslizante interactivo
-- 🧮 Cálculos en tiempo real
-- 💡 Demostración de conceptos básicos
+### Dashboard interactivo
+- Visualización de datos del dataset Iris
+- Filtros por especie
+- Gráficos de dispersión con Matplotlib y Plotly
+- Controles deslizantes para filtrado dinámico
+- Carga de archivos CSV personalizados
+- Métricas calculadas en tiempo real
+
 
 ## 🛠️ Instalación
 
@@ -50,7 +51,7 @@ source venv/bin/activate  # En macOS/Linux
 pip install -r requirements.txt
 ```
 
-## 🏃‍♂️ Uso
+##  Uso
 
 ### Ejecutar el Dashboard Interactivo
 ```bash
@@ -64,19 +65,19 @@ streamlit run hello-world.py
 
 Las aplicaciones se abrirán automáticamente en tu navegador web en `http://localhost:8501`.
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 Streamlit/
 ├── dashboard.py           # Dashboard principal con visualizaciones
 ├── hello-world.py         # Aplicación de demostración básica
 ├── requirements.txt       # Dependencias del proyecto
-├── README.md             # Documentación del proyecto
+├── README.md              # Documentación del proyecto
 └── dataset/
-    └── iris.csv          # Dataset de ejemplo
+    └── iris.csv           # Dataset de ejemplo
 ```
 
-## 📦 Dependencias
+## Dependencias
 
 - **streamlit**: Framework principal para aplicaciones web
 - **pandas**: Manipulación y análisis de datos
@@ -115,7 +116,7 @@ open "/Applications/Python 3.13/Install Certificates.command"
 which python3
 ```
 
-## 🎮 Funcionalidades del Dashboard
+## Funcionalidades del Dashboard
 
 ### Controles Interactivos
 - **Selectbox**: Filtrado por especies del dataset Iris
@@ -127,7 +128,7 @@ which python3
 - **Plotly**: Gráficos interactivos con zoom y hover
 - **Métricas**: Promedios calculados dinámicamente
 
-## 🤝 Contribución
+## Contribución
 
 1. Fork el proyecto
 2. Crea una rama para tu feature (`git checkout -b feature/nueva-funcionalidad`)
@@ -135,7 +136,7 @@ which python3
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
@@ -143,7 +144,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 **Pedro AM** - [pedroam-dev](https://github.com/pedroam-dev)
 
-## 🔗 Enlaces Útiles
+## Enlaces Útiles
 
 - [Documentación oficial de Streamlit](https://docs.streamlit.io/)
 - [Galería de aplicaciones Streamlit](https://streamlit.io/gallery)
@@ -151,4 +152,4 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ---
 
-⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub!
+Si te gusta este proyecto, ¡dale una estrella en GitHub!
