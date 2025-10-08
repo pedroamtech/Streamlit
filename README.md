@@ -87,7 +87,7 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-### Ejecutar el Dashboard V2.0 (Versión avanzada) - ¡RECOMENDADO! 🌟
+### Ejecutar el Dashboard V2.0 (Versión avanzada)
 ```bash
 streamlit run dashboard_v2.py
 ```
