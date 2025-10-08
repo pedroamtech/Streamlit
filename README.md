@@ -6,9 +6,9 @@ Este proyecto contiene aplicaciones web interactivas desarrolladas con Streamlit
 
 El proyecto incluye dos aplicaciones principales:
 
-1. **Dashboard Interactivo** (`dashboard.py`): Una aplicación completa de visualización de datos que utiliza el dataset Iris para mostrar gráficos interactivos, filtros y métricas.
+1. **Hello World** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
 
-2. **Hello World** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
+2. **Dashboard Interactivo** (`dashboard.py`): Una aplicación completa de visualización de datos que utiliza el dataset Iris para mostrar gráficos interactivos, filtros y métricas.
 
 ## Características
 
@@ -85,7 +85,7 @@ Streamlit/
 - **matplotlib**: Biblioteca de gráficos
 - **plotly**: Gráficos interactivos
 
-## 🔧 Solución a Problemas Comunes
+## Solución a Problemas Comunes
 
 ### Problema de Certificados SSL en macOS
 
@@ -140,7 +140,7 @@ which python3
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 👥 Autor
+## Autor
 
 **Pedro AM** - [pedroam-dev](https://github.com/pedroam-dev)
 
