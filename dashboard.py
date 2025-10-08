@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 # Cargar el dataset
-@st.cache
+@st.cache_data
 def cargar_datos():
     return sns.load_dataset("iris")
 
