@@ -1,0 +1,19 @@
+# Streamlit Dashboard Requirements
+# Framework principal
+streamlit>=1.28.0
+
+# Análisis y manipulación de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización de datos
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Utilidades adicionales
+scipy>=1.10.0
+
+# Opcional: Para mejor rendimiento
+openpyxl>=3.1.0  # Para leer archivos Excel
+xlsxwriter>=3.1.0  # Para escribir archivos Excel
