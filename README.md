@@ -1,18 +1,18 @@
-# Dashboard Interactivo con Streamlit
+# Dashboard interactivo con Streamlit
 
 Este proyecto contiene aplicaciones web interactivas desarrolladas con Streamlit, incluyendo un dashboard de visualización de datos y una aplicación básica de demostración.
 
-## Descripción del Proyecto
+## Descripción del proyecto
 
 El proyecto incluye dos aplicaciones principales:
 
-1. **Hello World** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
+1. **Hello world** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
 
-2. **Dashboard Interactivo** (`dashboard.py`): Una aplicación completa de visualización de datos que utiliza el dataset Iris para mostrar gráficos interactivos, filtros y métricas.
+2. **Dashboard interactivo** (`dashboard.py`): Una aplicación completa de visualización de datos que utiliza el dataset Iris para mostrar gráficos interactivos, filtros y métricas.
 
 ## Características
 
-### Hello rorld
+### Hello world
 - Control deslizante interactivo
 - Cálculos en tiempo real
 - Demostración de conceptos básicos
@@ -68,12 +68,12 @@ pip install -r requirements.txt
 
 ##  Uso
 
-### Ejecutar el Dashboard Interactivo
+### Ejecutar el Dashboard interactivo
 ```bash
 streamlit run dashboard.py
 ```
 
-### Ejecutar Hello World
+### Ejecutar Hello world
 ```bash
 streamlit run hello-world.py
 ```
