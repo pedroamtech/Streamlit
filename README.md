@@ -4,11 +4,13 @@ Este proyecto contiene aplicaciones web interactivas desarrolladas con Streamlit
 
 ## Descripción del proyecto
 
-El proyecto incluye dos aplicaciones principales:
+El proyecto incluye tres aplicaciones principales:
 
 1. **Hello world** (`hello-world.py`): Una aplicación básica de demostración que muestra las funcionalidades fundamentales de Streamlit.
 
 2. **Dashboard interactivo** (`dashboard.py`): Una aplicación completa de visualización de datos que utiliza el dataset Iris para mostrar gráficos interactivos, filtros y métricas.
+
+3. **Dashboard V2.0** (`dashboard_v2.py`) - **¡NUEVO!**: Versión mejorada y más interactiva del dashboard con diseño avanzado, múltiples tipos de gráficos, controles de filtrado avanzados y capacidades de carga de archivos.
 
 ## Características
 
@@ -24,6 +26,18 @@ El proyecto incluye dos aplicaciones principales:
 - Controles deslizantes para filtrado dinámico
 - Carga de archivos CSV personalizados
 - Métricas calculadas en tiempo real
+
+### Dashboard V2.0 - ¡NUEVO! 🚀
+- **Diseño moderno** con gradientes y estilos CSS personalizados
+- **Panel lateral interactivo** con múltiples controles de filtrado
+- **Visualizaciones avanzadas** con Plotly interactivo y Matplotlib
+- **Análisis multidimensional** con tabs organizados por tipo de análisis
+- **Métricas en tiempo real** con tarjetas estilizadas
+- **Carga de archivos mejorada** con vista previa y estadísticas
+- **Paleta de colores profesional** y diseño responsivo
+- **Filtros múltiples** (especie, rango de sépalo, ancho de pétalo)
+- **Tabla interactiva** con selección de columnas personalizables
+- **Gráficos especializados** (dispersión, distribuciones, correlaciones, comparativas)
 
 
 ## 🛠️ Instalación
@@ -68,9 +82,14 @@ pip install -r requirements.txt
 
 ##  Uso
 
-### Ejecutar el Dashboard interactivo
+### Ejecutar el Dashboard interactivo (Versión básica)
 ```bash
 streamlit run dashboard.py
+```
+
+### Ejecutar el Dashboard V2.0 (Versión avanzada) - ¡RECOMENDADO! 🌟
+```bash
+streamlit run dashboard_v2.py
 ```
 
 ### Ejecutar Hello world
@@ -80,13 +99,20 @@ streamlit run hello-world.py
 
 Las aplicaciones se abrirán automáticamente en tu navegador web en `http://localhost:8501`.
 
+> **💡 Tip:** Te recomendamos probar primero `dashboard_v2.py` para una experiencia más completa e interactiva.
+
 ## Estructura del Proyecto
 
 ```
 Streamlit/
-├── dashboard.py           # Dashboard principal con visualizaciones
+├── dashboard.py           # Dashboard básico con visualizaciones
+├── dashboard_v2.py        # Dashboard V2.0 - ¡NUEVO! Versión avanzada e interactiva
 ├── hello-world.py         # Aplicación de demostración básica
 ├── requirements.txt       # Dependencias del proyecto
+├── setup.sh               # Script de configuración automática
+├── .gitignore             # Archivos a ignorar en Git
+├── .streamlit/            # Configuración de Streamlit
+│   └── config.toml        # Configuración personalizada
 ├── README.md              # Documentación del proyecto
 └── dataset/
     └── iris.csv           # Dataset de ejemplo
