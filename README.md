@@ -94,7 +94,7 @@ streamlit run dashboard_v2.py
 
 ### Ejecutar Hello world
 ```bash
-streamlit run hello-world.py
+streamlit run hello.py
 ```
 
 Las aplicaciones se abrirán automáticamente en tu navegador web en `http://localhost:8501`.
@@ -107,7 +107,7 @@ Las aplicaciones se abrirán automáticamente en tu navegador web en `http://loc
 Streamlit/
 ├── dashboard.py           # Dashboard básico con visualizaciones
 ├── dashboard_v2.py        # Dashboard V2.0 - ¡NUEVO! Versión avanzada e interactiva
-├── hello-world.py         # Aplicación de demostración básica
+├── hello.py         # Aplicación de demostración básica
 ├── requirements.txt       # Dependencias del proyecto
 ├── setup.sh               # Script de configuración automática
 ├── .gitignore             # Archivos a ignorar en Git
