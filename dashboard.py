@@ -44,6 +44,7 @@ longitud_sepal_min, longitud_sepal_max = st.slider(
     value=(float(df['sepal_length'].min()), float(df['sepal_length'].max()))
 )
 
+
 # SLIDER: Filtrar por rango de longitud de sépalo
 df_filtrado_sepal = df[(df['sepal_length'] >= longitud_sepal_min) & (df['sepal_length'] <= longitud_sepal_max)]
 
